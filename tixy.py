@@ -53,7 +53,7 @@ def tixy(
     while True:
         with canvas.sync():
             render(func, time() - start_time)
-            sleep(delay)
+        sleep(delay)
 
 
 if __name__ == '__main__':
